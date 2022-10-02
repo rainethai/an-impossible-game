@@ -1,0 +1,27 @@
+{
+  "name": "a99-110",
+  "version": "1.0.0",
+  "description": "\"final quiz game project\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"node -r esm main.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmar3-comp426/a99-110.git"
+  },
+  "author": "\"Claire Helms, Josh Lovett, Fernando Garcia, Raine Thai, Makeda Phoenix\"",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/jdmar3-comp426/a99-110/issues"
+  },
+  "homepage": "https://github.com/jdmar3-comp426/a99-110#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.4.5",
+    "browser-sync": "^2.27.7",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "md5": "^2.3.0"
+  }
+}

@@ -1,0 +1,10 @@
+# API Info
+Revel in the glory of our meticulously crafted API! We used better-sqlite to create a user info database, a high scores database, a user history database holding the choices players made, and a database holding previous players. See database.js for initial database setup! We used Express.js and XMLHTTP to create our API endpoints in server.js for getting and posting highscores, getting and posting player input history, getting all players, posting a new player, checking if an answer choice was correct, getting answer options, getting individual questions, getting all questions, deleting a user, and getting, posting, and updating users. 
+
+On the first view, the user enters their username and password into a form that passes their info to the database through the postUser() method in index.js. This method required the setRequestHeader() function from XML to post correctly. We save user info in a cookie to be used at the end of the game for updating the user's high score.
+
+Then, we populate the quiz.html file with data from the backend using the getQuestion() and getAnswer() methods in index.js, which call GET queries to grab question info from a JSON object in the backend. When the user clicks a button, it's respective onclick method is called which checks the corresponding backend JSON object to see if the answer is listed as correct. If so, a global variable for points is incremented in index.js and the next set of questions is loaded. If not, the next question set is loaded without incrementing the score.
+
+At the end of the game, the player is shown a leaderboard of player scores using the createLeaders() function in index.js, which populates a front end table from the high scores database. Then, the user has the option to play again as a new user via the updateAccount() function in index.js, which makes an API call to change the username and password of the current user. The user can also delete their account by calling the deleteFunction(), which removes their information from the database.
+
+Horray!

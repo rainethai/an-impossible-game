@@ -1,0 +1,181 @@
+/*
+#answer1 {
+    visibility: hidden;
+}
+#answer2 {
+    visibility: hidden;
+}
+#answer3 {
+    visibility: hidden;
+}
+#answer4 {
+    visibility: hidden;
+}
+*/
+/*************** MAIN CSS ****************/
+body {
+    background: radial-gradient(rgba(213, 228, 229, 0.937), rgba(71, 208, 226, 0.937));
+    height: 200%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 7.4em;
+    -webkit-text-fill-color: rgb(231, 56, 193);
+    -webkit-text-stroke-color: rgb(255, 230, 250);
+    -webkit-text-stroke-width: .05px; 
+}
+
+h2 {
+    font-family: 'Gwendolyn', cursive;
+    font-size: 5em; 
+    margin: 0.2em;
+}
+
+.sub_btn{
+    padding:0.6em 1.9em;
+    border:0.2em solid #07421e;
+    margin:.2em;
+    border-radius:0.4em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.5em;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color: rgb(185, 223, 226);
+    text-align:center;
+    transition: all 0.15s;
+    margin: 1em;
+}
+
+.sub_btn:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:rgb(255, 120, 208);
+    border-color:#FFFFFF;
+}
+
+.login-container {
+    border: 0.6em solid rgb(17, 50, 198);
+    border-radius: 2em;
+    border-style: double;
+    background: radial-gradient(#e35757, #6871d6);
+}
+
+.input {
+    font-size: 1em;
+    margin-bottom: .3em;
+    color: rgb(255, 255, 234);
+    font-family: monospace;
+    font-size: 110%;
+    -webkit-text-fill-color: #07421e;
+    padding: 3px;
+}
+
+.label {
+    font-size: 1.2em;
+}
+
+#username {
+    margin-bottom: 1em;
+}
+
+
+/**************** QUIZ SPECIFIC CSS ********************/
+#quiz_title {
+    margin: .1em;
+}
+
+#starting_button {
+    margin-top: 1em;
+    border:0.2em solid #07421e;
+    padding: .7em;
+    border-radius:0.4em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.5em;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color: rgb(185, 223, 226);
+    text-align:center;
+    transition: all 0.15s;
+    margin-bottom: 1em;
+}
+
+#starting_button:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:rgb(255, 120, 208);
+    border-color:#FFFFFF;
+}
+
+#score {
+    margin-top: 10%;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+#question {
+    padding-top: 2em;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.quiz_btn {
+    margin-top: 1em;
+    border:0.1em solid #e37900;
+    padding: .3em;
+    border-radius:0.4em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.5em;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color: rgb(244, 243, 211);
+    text-align:center;
+    transition: all 0.15s;
+}
+.quiz_button:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:rgb(255, 120, 208);
+    border-color:#FFFFFF;
+}
+
+/************* LEADERBOARD ****************/
+.leaderboard-container {
+    border: 0.6em solid #e35300;
+    border-radius: 2em;
+    border-style: double;
+    background: radial-gradient(rgb(255, 252, 194), rgb(255, 140, 95));
+    min-height: 300px;
+}
+
+.endtitle {
+    font-size: 5em;
+}
+
+.endhead {
+    font-size: 3.2em;
+}
+
+/************ CHANGE USER ************/
+#change {
+    font-size: 3.4em; 
+    margin: 0.2em;
+}
+
+#leaders {
+    font-family: monospace;
+    font-size: 120%;
+}

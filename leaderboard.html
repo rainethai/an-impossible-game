@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="interface.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Mouse+Memoirs&display=swap');
+    </style>
+    <title>THE NOT POSSIBLE QUIZ</title>
+</head>
+<body onload="createLeaders()">
+    <h1 class="center endtitle">THE NOT POSSIBLE LEADERBOARD</h1>
+    
+    <div id="content">
+    <section class="center">
+        <div class="leaderboard-container">
+            <h2 class="endhead" id="login">Thanks for Playing!</h2>
+            <ol id="leaders">
+
+            </ol>
+        </div>
+        <button id="starting_button" onclick="document.location.href='change_user.html'">Change Account</button>
+        <button id="starting_button" onclick="deleteFunction()">Delete Account</button>
+        <button id="starting_button" onclick="document.location.href='quiz.html'">Play Again!</button>
+    </section>
+    </div>
+    <script type = "text/javascript" src = "index.js"></script>
+</body>
+</html>

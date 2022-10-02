@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="interface.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Mouse+Memoirs&display=swap');
+    </style>
+    <title>THE NOT POSSIBLE QUIZ</title>
+</head>
+<body>
+    <div id = "content">
+    <h1 class="center">THE NOT POSSIBLE QUIZ</h1>
+
+        <section class="center">
+            <div class="login-container">
+                <button id="starting_button" onclick="startQuestions()">Get Question</button>
+                <br>
+                <span id="question"></span>
+                <br>
+                <button class="quiz_btn" id = "answer1" onclick="buttonOneAction()"></button>
+                <button class="quiz_btn" id = "answer2" onclick="buttonTwoAction()"></button>
+                <button class="quiz_btn" id = "answer3" onclick="buttonThreeAction()"></button>
+                <button class="quiz_btn" id = "answer4" onclick="buttonFourAction()"></button>
+                <p id ="score">Score: <span>0</span></p>
+            </div>
+        </section>
+
+        <script type = "text/javascript" src = "index.js"></script>
+    </div>
+</body>
+</html>
